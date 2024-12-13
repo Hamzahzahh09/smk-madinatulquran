@@ -383,8 +383,140 @@
 /* ------------------------ Responsive Mobile -----------------------  */
 
 
+/* @media (max-width: 1200px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+  }
+
+  .deskripsi {
+    text-align: center;
+  }
+
+  .img-content img {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .kurikulum {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .box-pelajaran {
+    width: calc(50% - 16px);
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+  }
+
+  .deskripsi {
+    text-align: center;
+  }
+
+  .img-content img {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .kurikulum {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .box-pelajaran {
+    width: calc(50% - 16px);
+  }
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+  .content {
+    margin-block: 5vh;
+  }
+
+  .main-content {
+    margin-inline: 5%;
+  }
+
+  .diniyyah-umum, .software-engineer, .network-engineer, .program-unggulan {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .diniyyah-img, .software-engineer-img, .network-engineer-img, .program-unggulan-img {
+    margin-bottom: 20px;
+  }
+
+  .box-pelajaran {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) and (min-width: 320px) {
+  .content h1 {
+    font-size: 24px;
+  }
+
+  .content p {
+    font-size: 14px;
+  }
+
+  .tombol button {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .kurikulum {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .partner-logo {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .diniyyah-umum, .software-engineer, .network-engineer, .program-unggulan {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .diniyyah-img, .software-engineer-img, .network-engineer-img, .program-unggulan-img {
+    margin-bottom: 20px;
+  }
+
+  .baris-logo img {
+    max-width: 80px;
+  }
+
+  .box-fasilitas {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .registration-table th, .registration-table td {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .fasilitas h2, .biaya-pendidikan h2 {
+    font-size: 20px;
+  }
+
+  .footer-section {
+    margin-bottom: 20px;
+  }
+} */
+
+/* Responsive adjustments for specific devices */
+
 /* Small laptops */
-@media (max-width: 1200px) {
+@media (max-width: 12oopx) {
   .content {
     display: grid;
     grid-template-columns: 1fr;
